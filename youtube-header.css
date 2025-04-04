@@ -1,0 +1,215 @@
+.header{
+    display:flex;
+    justify-content: space-between;
+    height:50px;
+    align-items: center;
+    position:fixed;
+    top:0px;
+    left:0px;
+    right:0px;
+    height:50px;
+    padding-bottom: 5px;
+    background-color: white;
+    border-bottom-width: 1px;
+    border-bottom-style:solid;
+    border-bottom-color:rgb(238, 238, 238);
+    z-index:100;
+    margin-top:2px;
+}
+
+
+.left-side-header{
+    display:flex;
+    flex-shrink: 0;
+}
+.hamburger-menu{
+    height: 25px;
+    margin-left:20px;
+    margin-right:20px;
+}
+
+.yt-logo{
+    width:90px;
+    height:25px;
+    cursor:pointer;
+}
+
+
+.mid-header{
+    display:flex;
+    flex-direction: row;
+    margin-left:70px;
+    margin-right:30px;
+    height:45px;
+    flex:1;
+    max-width: 470px;
+
+}
+
+.search-bar{
+    padding-left:10px;
+    font-family:roboto;
+    font-size:15px;
+    flex:1;
+    box-shadow:inset;
+    border-style:solid;
+    border-color:rgb(203,203,203);
+    border-radius:2px;
+    width:0;
+}
+
+.search-button{
+    width: 65px;
+    background-color: rgb(239, 239, 239);
+    margin-right:2px;
+    cursor:pointer;
+    padding-right:15px;
+    padding-left:15px;
+    border-color:rgb(203, 203, 203);
+    border-style:solid;
+    position:relative;
+
+}
+
+.search-button .tooltip{
+    background-color:rgb(92, 92, 92);
+    color:white;
+    position:absolute;
+    right:5;
+    bottom:-42;
+    font-family:roboto;
+    font-size:12px;
+    padding: 8 8 8 8;
+    border-radius:3px;
+    opacity:0;
+    pointer-events:none;
+}
+.search-button:hover .tooltip{
+    opacity:0.9;
+    transition: opacity 0.15s;
+}
+
+.search-button:hover{
+    transition: background-color 0.15s;
+    background-color:rgba(211, 210, 210, 0.941);
+}
+
+.mic-button{
+    width:40px;
+    height:40px;
+    border:none;
+    border-radius: 60px;
+    cursor:pointer;
+    padding-left:8px;
+    padding-right:8px;
+    margin-left:4px;
+}
+
+.mic-button .tooltip{
+    background-color:rgb(92, 92, 92);
+    color:white;
+    position:absolute;
+    right:390;
+    bottom:-33;
+    font-family:roboto;
+    font-size:12px;
+    padding: 8 8 8 8;
+    border-radius:3px;
+    opacity:0;
+    pointer-events:none;
+}
+.mic-button:hover .tooltip{
+    opacity:0.9;
+    transition: opacity 0.15s;
+}
+
+.right-side-header{
+    margin-right:12px; 
+    margin-left:40px;
+    margin-top:10px;   
+    display: flex;
+    position:relative;
+}
+.right-side-widgets{
+    width:25px;
+    margin-right:25px;
+    vertical-align: top;
+    cursor:pointer;
+    display:flex;
+    flex-shrink:0;
+
+}
+.Create-container .tooltip{
+    background-color:rgb(92, 92, 92);
+    color:white;
+    position:absolute;
+    right:157;
+    bottom:-42;
+    font-family:roboto;
+    font-size:12px;
+    padding: 8 8 8 8;
+    border-radius:3px;
+    opacity:0;
+    pointer-events:none;
+}
+.Create-Container:hover .tooltip{
+    opacity:0.9;
+    transition: opacity 0.15s;
+}
+
+.YouTube_Apps-Container .tooltip{
+    background-color:rgb(92, 92, 92);
+    color:white;
+    position:absolute;
+    right:82;
+    bottom:-42;
+    font-family:roboto;
+    font-size:12px;
+    padding: 8 8 8 8;
+    border-radius:3px;
+    opacity:0;
+    pointer-events:none;
+}
+.YouTube_Apps-Container:hover .tooltip{
+    opacity:0.9;
+    transition: opacity 0.15s;
+}
+.Notifications-container .tooltip{
+    background-color:rgb(92, 92, 92);
+    color:white;
+    position:absolute;
+    right:42;
+    bottom:-42;
+    font-family:roboto;
+    font-size:12px;
+    padding: 8 8 8 8;
+    border-radius:3px;
+    opacity:0;
+    pointer-events:none;
+}
+.Notifications-Container:hover .tooltip{
+    opacity:0.9;
+    transition: opacity 0.15s;
+}
+.notification-count{
+    position:absolute;
+    color:white;
+    background-color:rgb(205, 0, 0);
+    font-size:9px;
+    border-radius:7px;
+    height:15px;
+    top:1;
+    right:68;
+    padding-left:4px;
+    padding-right:4px;
+    font-family:roboto;
+}
+.notification-icon-container{
+    margin-top:5px;
+    position:relative;
+}
+.my-channel-widget{
+    margin-right:10px;
+    width:35px;
+}
+

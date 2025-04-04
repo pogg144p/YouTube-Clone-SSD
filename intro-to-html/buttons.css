@@ -1,0 +1,94 @@
+  .join-button {
+    background-color:white;
+    color: blue;
+    cursor: pointer;
+    padding-top:25px;
+    padding-bottom:25px;
+    padding-right:30px;
+    padding-left:30px;
+    border-radius:2px ;
+    border-color:blue;
+    border-width:1px;
+    margin: 50px;
+    border-style:solid;
+    box-shadow: 2px 2px 7px blue;
+    transition: background-color 3s;
+  }
+.join-button:hover{
+    background-color:blue;
+    color:white;
+    border-color: white;
+    box-shadow:1px 1px 1px white;
+}
+
+    .tweet-button {
+    background-color: rgb(49, 140, 225);
+    color:white;
+    cursor:pointer;
+    border-radius: 15px;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    border:none;
+    margin: 50px;
+    font-weight:bold;
+    font-size:15px;
+    }
+    
+
+    .uber-button{
+        background-color: black;
+        height:50px;
+        color:white;
+        cursor:pointer;
+        margin:50px;
+        transition:0.15s;
+        border-radius:2px;
+
+    }
+    .uber-button:hover{
+        background-color:rgb(40, 38, 38);
+    }
+
+
+    .amazon-button{
+        background-color:rgb(255, 217, 0);
+        padding-top:15px;
+        padding-bottom:15px;
+        padding-left:75px;
+        padding-right:75px;
+        border-radius:50px;
+        font-size: 17.5px ;
+        border:none;
+        font-weight: bold;
+        transition: 0.15s;
+        cursor:pointer;
+        margin:50px;
+    }
+    .amazon-button:hover{
+        background-color:rgb(235, 201, 9);
+        padding-top:17px;
+        padding-bottom:17px;
+        padding-left:78px;
+        padding-right:78px;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.75);  
+    }
+
+
+    .pagination-button{
+        padding-left:10px;
+        padding-right:10px;
+        padding-top:7px;
+        padding-bottom:7px;
+        border-radius:4px;
+        cursor:pointer;
+        margin:10px;
+    }
+
+    .Number-button{
+        border:none;
+        cursor:pointer;
+        color:blue;
+        background-color:white;
+}
